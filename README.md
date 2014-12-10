@@ -1,7 +1,7 @@
 ClojureSwift
 ============
 
-Attempt to implement a Clojure dialect on top of Apple's Swift language and [LLVM bitcode](http://en.wikipedia.org/wiki/LLVM). The main goal is to enable the creation of iOS and Mac OS X apps written in idiomatic Clojure. There should be good interoperability with Swift and Objective-C, and access to all the usual libraries and frameworks without hassle.
+Implement Clojure with Apple's Swift language and [LLVM bitcode](http://en.wikipedia.org/wiki/LLVM). The main goal is to enable the creation of iOS and Mac OS X apps written in idiomatic Clojure. There should be good interoperability with Swift and Objective-C, and access to all the usual libraries and frameworks without hassle.
 
 ### Literature Review
 
@@ -35,9 +35,9 @@ Several people who are interested have contributed info, including the authors o
 ### Details / FAQ
 Important questions commonly asked
 
-* TCO (Tail Call Optimization) is supported by Swift.
-* Integers, Floating Point numbers, and other types are already supported by swift-lambdatron.
-* GC (Garbage Collection) is an important question. clojure-objc only has problems for interop. Will Swift's standard ref-counting be enough? How can we implement GC cleanly?
+* TCO (Tail Call Optimization) for recursion is supported by Swift.
+* Integers, Floating Point numbers, and other common types are already implemented by swift-lambdatron.
+* GC (Garbage Collection) is an important question. clojure-objc only has problems for interoperability. Will Swift's standard ARC (automatic reference counting) be enough? How can we implement GC cleanly?
 * How can we implement it so we're not duplicating everything? (e.g., core.async rewrite)
 * File extension: *.clsw perhaps
 
