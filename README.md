@@ -47,6 +47,7 @@ Important questions
 * How can we implement it so we're not duplicating everything? (e.g., core.async rewrite)
 * File extension: *.clsw perhaps, or use cljx
 * Copy [RoboVM's idea of YAML API]("https://github.com/robovm/robovm/tree/master/cocoatouch/src/main/bro-gen") with a Transit (JSON-compatible) link to Apple frameworks
+* [ReactiveCocoa + Swift]("http://www.scottlogic.com/blog/2014/07/24/mvvm-reactivecocoa-swift.html") would probably be a good idea.
 
 
 
