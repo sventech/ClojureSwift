@@ -14,8 +14,11 @@ Develop iOS apps with ClojureScript. Goby targets the iOS JavaScript runtimes (J
 ##### [swift-lambdatron](https://github.com/austinzheng/swift-lambdatron/ "Swift Lambdatron") by Austin Zheng 
 Currently a REPL capable of running a subset of Clojure. Still in very early phase, no docs yet. Design is very clean and easy to read. *Eclipse license*
 
+##### [clojurec]("https://github.com/schani/clojurec") by Mark Probst & 5 others
+ClojureScript ported to transpile to C, has examples for XCode/iOS and Android development. Uses Boehm Garbage Collector (which is available on HomeBrew as `bdw-gc`) and [Klib]("https://github.com/attractivechaos/klib"). Provides support for Leiningen builds and testing.
+
 ##### [tocatta](https://github.com/jduey/toccata "Tocatta Clojure to Native Compiler") by Jim Duey
-Clojure subset compiler written in C and targeted at the Clang compiler (which happens to be the default for Apple's XCode). It produces native binaries.  It currently relies on the Boehm Garbage Collector. Still very early phase, no docs and poorly formatted code. Very clever design. *Eclipse license*
+Clojure subset, transpiles to C and targets the Clang compiler (which happens to be the default for Apple's XCode). It produces native binaries.  It currently relies on the Boehm GC (see above). Still very early phase, no docs and poorly formatted C code. Very clever design. *Eclipse license*
 
 ##### [uikit](https://github.com/galdolber/uikit "Clojure UIKit") by Gal Dolber
 Allows you to create iOS interfaces directly from Clojure code using Apple's AutoLayout system. It looks fairly mature (alpha vs. 5th commit for most of these projects), but perhaps somewhat limited in scope. *MIT + GPLv2 licenses*
