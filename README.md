@@ -14,7 +14,7 @@ Develop iOS apps with ClojureScript. Goby targets the iOS JavaScript runtimes (J
 ##### [Swift-Lambdatron](https://github.com/austinzheng/swift-lambdatron/ "Swift Lambdatron") by Austin Zheng 
 Currently a REPL capable of running a subset of Clojure. Still in very early phase, no docs yet. Design is very clean and easy to read. *Eclipse license*
 
-##### [ClojureC]("https://github.com/schani/clojurec/" "ClojureC") by Mark Probst &amp; 5 others
+##### [ClojureC](https://github.com/schani/clojurec/ "ClojureC") by Mark Probst &amp; 5 others
 Modified ClojureScript compiler into transpiler that produces C code, has examples for XCode/iOS and Android development. Uses Boehm Garbage Collector (which is available on HomeBrew as `bdw-gc`) and [Klib]("https://github.com/attractivechaos/klib"). Provides support for Leiningen builds and testing.
 
 ##### [Tocatta](https://github.com/jduey/toccata "Tocatta Clojure to Native Compiler") by Jim Duey
