@@ -11,7 +11,7 @@ Modified Clojure (JVM) compiler into a transpiler that produces Java code. Compi
 ##### [Goby](https://github.com/mfikes/goby "Goby ClojureScript on iOS") by Mike Fikes
 Develop iOS apps with ClojureScript. Goby targets the iOS JavaScript runtimes (JSExport, JavaScriptCore), allowing a REPL connected to an iOS device during development! Each iOS libary requires bridge code to be added, but eventually complex apps can be made. One app is already in the app store, and performance is good since native libraries can be called from JavaScript. See example app [Shrimp](https://github.com/mfikes/shrimp "Shrimp example Goby app"). Also see [Owen Mathews' blog post about JavaScript on iOS](""http://www.bignerdranch.com/blog/javascriptcore-and-ios-7/"). *Eclipse license*
 
-##### [Swift-Lambdatron](https://github.com/austinzheng/swift-lambdatron/ "Swift Lambdatron") by Austin Zheng 
+##### [Cormorant](https://github.com/austinzheng/cormorant/ "Swift Lambdatron") (formerly "Swift Lambdatron") by Austin Zheng 
 Currently a REPL capable of running a subset of Clojure. Still in very early phase, no docs yet. Design is very clean and easy to read. *Eclipse license*
 
 ##### [ClojureC](https://github.com/schani/clojurec/ "ClojureC") by Mark Probst &amp; 5 others
