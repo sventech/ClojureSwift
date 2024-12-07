@@ -5,7 +5,7 @@ Clojure hosted on Apple's Swift language and [LLVM bitcode](http://en.wikipedia.
 
 ### Literature Review
 
-##### [jank](git@github.com:sventech/ClojureSwift.git "Jank Clojure dialect") by [Jeaye Wilkerson](https://github.com/jeaye)
+##### [jank](https://github.com/jank-lang/jank "Jank Clojure dialect") by [Jeaye Wilkerson](https://github.com/jeaye)
 Trying to cover all core language features and standard library. Targeting interface with
 C++ the way Clojure interfaces with Java. Still a [work in progress](https://jank-lang.org/progress/) (see detailed progress report) as of 2024-08-10 but looking very promising.
 Allows inline C++ code. *Mozilla Public License 2.0*
